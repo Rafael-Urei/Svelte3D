@@ -1,10 +1,6 @@
 <script lang="ts">
 	import { T, useTask } from '@threlte/core';
 	import { GLTF, OrbitControls } from '@threlte/extras';
-	let rotation = 0;
-	useTask((delta) => {
-		rotation += delta / 4;
-	});
 </script>
 
 <T.PerspectiveCamera makeDefault fov={5} position={[10, 40, 20]}>
@@ -16,4 +12,4 @@
 <T.DirectionalLight color="blue" position.y={-0.6} />
 <T.DirectionalLight position.y={-0.6} />
 
-<GLTF url="/models/scene.glb" rotation.y={rotation} rotation.x={rotation} />
+<GLTF url="/models/scene.glb" />
