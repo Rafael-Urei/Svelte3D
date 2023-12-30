@@ -16,4 +16,4 @@
 <T.DirectionalLight color="blue" position.y={-0.6} />
 <T.DirectionalLight position.y={-0.6} />
 
-<GLTF url="/models/svelte.glb" rotation.y={rotation} rotation.x={rotation} />
+<GLTF url="/models/scene.glb" rotation.y={rotation} rotation.x={rotation} />
